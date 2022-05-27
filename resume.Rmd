@@ -1,10 +1,4 @@
 ---
-title: "Resume"
-author: "MSc. Nidia Beltrán"
-date: "5/27/2022"
-output: html_document
----
----
 name: Haha Ha
 header:
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+1) 123-456-7890
