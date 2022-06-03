@@ -26,9 +26,8 @@ library(vitae)
 * Analysis of Next Generation Sequencing Data
 * Molecular docking & Molecular Protein modeling
 * Biochemistry, molecular biology, BigData and AI
-* Languages: Spanish (Native), English (Advanced)
+* Languages: Spanish (Native), English (Advance)
 * Mendeley Advisor
-
 
 
 # Education
@@ -46,18 +45,11 @@ tribble(
 
 # Experience
 
-```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
-```
+> __Osteosarcoma Biomarkers Identification  \hfill 2016–Present__  
+Working on Omics Analysis pipelines for metastasis osteosarcoma biomarkers. Responsibilities provided include: implementation of RNA sequencing analysis pipelines for cancer diagnostics and prognostics. Mentor: Prof. Manuel Rivera, Ph.D.
+
+> __Novel Bioactive Compund Identification  \hfill 2013-2015__  
+Worked on the project:  Effect of bioactive compounds on Voltage-Gated Calcium Channels through molecular docking analysis. Responsibilities provided include: algorithm implementation for automatized docking analysis. Mentor: Prof. Manuel Rivera, Ph.D.
 
 # Publications
 
@@ -65,7 +57,11 @@ tribble(
 library(dplyr)
 knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 
-bibliography_entries("packages.bib") %>%
+bibliography_entries("nidia.bib") %>%
   arrange(desc(author$family), issued)
 ```
+
+# Science Communication
+
+
 
